@@ -1,0 +1,48 @@
+/* Settings nav menu */
+.mynav{
+    height: 140px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+.nav-item{
+    width: 115px;
+    height: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.nav-link{
+    padding-left: 6px;
+    padding-right: 6px;
+    size: 14pt;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.link-text-under{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 12px;
+    padding-left: 6px;
+}
+.logo{
+    size: 36pt;
+    color: #ff6633;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    cursor: auto;
+}
+.logo--item-size{
+    height: 45px;
+    width: 75px;
+       
+}
+.active{
+    color: #ff6633;
+}
+
+/* Settings for header */
+
+.header{
+    height: 700px;
+    background: url(Photo/HeaderPhoto.png) no-repeat;
+}

@@ -1,48 +1,120 @@
+/* Settings for header */
+
+.header{
+    height: 675px;
+    background: url(Photo/HeaderPhoto.png) no-repeat;
+}
+/* finish settings for header */
+
 /* Settings nav menu */
-.mynav{
-    height: 140px;
+.header-nav{
+    height: 240px;
+    width: 950px;
+    margin-left: 180px;
     padding-top: 40px;
     padding-bottom: 40px;
-
+    justify-content: space-between;
+    
+}
+.nav{
+    justify-content: space-between;
+    width: 750px;
 }
 .nav-item{
-    width: 115px;
     height: 50px;
-    margin-left: 5px;
-    margin-right: 5px;
 }
 .nav-link{
-    padding-left: 6px;
-    padding-right: 6px;
-    size: 14pt;
-    color: white;
+    padding-left: 0px;
+    font-size: 10pt;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-.link-text-under{
+.link-text-under{ 
+    width: 115px;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     font-size: 12px;
-    padding-left: 6px;
-}
-.logo{
-    size: 36pt;
-    color: #ff6633;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: bold;
-    cursor: auto;
-}
-.logo--item-size{
-    height: 45px;
-    width: 75px;
-       
+    padding-left: 0px;
 }
 .active{
     color: #ff6633;
 }
+/* finish nav menu */
 
-/* Settings for header */
+/* Color for links on all webpage */
+.link{
+    color: white;
+}
+.link:hover{
+    color: #ff6633;
+    text-decoration: none;
+}
+/* Finish link setting */
 
-.header{
-    height: 700px;
-    background: url(Photo/HeaderPhoto.png) no-repeat;
+
+/* Settings for LoGo */
+.logo{
+    margin-top: -10px;
+}
+.logo-text{
+    font-size: 36pt;
+    color: #ff6633;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    text-decoration: none;
+   
+}
+.logo--item-size{
+    height: 45px;
+    width: 200px;
+}
+/* Finish settings for logo */
+
+
+/* Settings for title on header */
+.header-title{
+    align-items: center;
+    margin-top: 80px;
+}
+.title-site{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: #ffffff;
+}
+.title-under{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    color: #ffffff;
+}
+/* finish for title on header */
+
+/* Settings for button on header */
+.header-button{
+    margin-top: 45px;
+}
+.button-view {
+    width: 160px;
+    height: 50px;
+    border: 0;
+    color: #ffffff;
+    font-size: 9pt;
+}
+.main-button{
+    background-color: #ff6633;
+}
+.main-button:hover{
+    background-color: #ffffff;
+}
+.auxiliary-button{
+    background-color: rgba(0, 0, 0, 0.753);
+}
+.auxiliary-button:hover{
+    background-color: rgb(255, 255, 255);
+}
+/* finish for button on header */
+
+/* Settings for header scroll button */
+.header-scroll-text{
+    margin-top: 110px;
+    color: #ffffff;
+    font-size: 14px;
 }

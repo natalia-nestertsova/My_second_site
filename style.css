@@ -1,5 +1,7 @@
 /* Settings for header */
-
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
 .header{
     height: 675px;
     background: url(Photo/HeaderPhoto.png) no-repeat;
@@ -30,7 +32,7 @@
 }
 .link-text-under{ 
     width: 115px;
-    font-family: Arial, Helvetica, sans-serif;
+
     color: white;
     font-size: 12px;
     padding-left: 0px;
@@ -58,7 +60,7 @@
 .logo-text{
     font-size: 36pt;
     color: #ff6633;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
     text-decoration: none;
    
@@ -76,12 +78,12 @@
     margin-top: 80px;
 }
 .title-site{
-    font-family: Arial, Helvetica, sans-serif;
+   
     font-weight: lighter;
     color: #ffffff;
 }
 .title-under{
-    font-family: Arial, Helvetica, sans-serif;
+
     font-weight: 100;
     color: #ffffff;
 }
@@ -90,6 +92,8 @@
 /* Settings for button on header */
 .header-button{
     margin-top: 45px;
+    display: flex;
+    direction: row;
 }
 .button-view {
     width: 160px;
@@ -97,6 +101,8 @@
     border: 0;
     color: #ffffff;
     font-size: 9pt;
+    align-self: center;
+    
 }
 .main-button{
     background-color: #ff6633;
@@ -106,6 +112,7 @@
 }
 .auxiliary-button{
     background-color: rgba(0, 0, 0, 0.753);
+    align-items: center;
 }
 .auxiliary-button:hover{
     background-color: rgb(255, 255, 255);
@@ -117,4 +124,69 @@
     margin-top: 110px;
     color: #ffffff;
     font-size: 14px;
+}
+
+/* Start body */
+
+/* First article */
+
+.first-title{
+    height: 995px;
+    background:  #f7f7f7 url(Photo/first-article-bg.png) no-repeat;
+    
+}
+.article-block{
+    height: 450px;
+    width: 450px;
+    margin-left: 200px;
+    margin-right: 170px;
+    padding-top: 170px;
+}
+
+
+
+/* second article */
+.second-title{
+    height: 700px;
+    background: url(Photo/second-article-bg.png) no-repeat;
+}
+/* third section */
+.form-section{
+    height: 850px;
+    background: #f7f7f7;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.form-view{
+    height: 598px;
+    width: 455px;
+    margin-right: 30px;
+    margin-left: 30px;
+    background: #ffffff; 
+    justify-content: center;
+    align-items: center;
+}
+
+/* first form */
+.registration-form-item{
+    margin-top: 75px;
+    height: 415px;
+    align-items: center;
+    justify-content: space-around;
+}
+.item-row{
+    height: 50px;
+    width: 310px;
+    border-color: #e5e4e4;
+    border-radius: 5px;
+}
+
+/* second form */
+
+
+.coments-form {
+    flex-direction: column;
+    justify-content: center;
 }

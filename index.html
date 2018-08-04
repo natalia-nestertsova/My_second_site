@@ -3,10 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-    <title>Viola</title>
+       <title>Viola</title>
     
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
         crossorigin="anonymous">
@@ -15,7 +12,7 @@
 
 <body>
     <div class="header">
-        <div class="header-nav d-flex flex-row">
+        <nav class="header-nav d-flex flex-row">
             <div class="logo"><a class="link" href=""><p class="logo-text logo--item-size">Voilà</p></a> </div>
             <ul class="nav">
                   <li class="nav-item">
@@ -39,7 +36,7 @@
                     <p class="link-text-under">Quis nemo odio saepe ullam vitae officiis delectus.</p>
                 </li>
             </ul>
-        </div>
+        </nav>
         <div class="header-title d-flex flex-column">
             <h1 class="title-site text-uppercase">Welcome to Voilà</h1>
             <h2 class="title-under">We offer mouth watering <ins>French cuisine</ins></h2>
@@ -48,12 +45,57 @@
                     <b class="text-uppercase">see menu</b> </button>
                 <button class="link btn btn-primary button-view auxiliary-button" type="submit">
                     <b class="text-uppercase">Find a table</b> </button>
+                   
             </div>
         
             <a href="" class="link header-scroll-text">Scroll down for details</a>
-            <a href=""><img src="Photo/arrow.png"></a> 
+            <a href=""><img id="header-img" src="Photo/arrow.png"></a> 
             </div>
     </div>
+
+    <div class="first-title">
+        <section class="article-block float-left">
+            <h3 class = "article-title text-center">About Voila Restaurant</h3>
+            <p calss="article-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+             Autem ex ea, dicta reprehenderit temporibus sint praesentium dolorum nulla inventore
+              voluptatum error magnam. Itaque cum et consequuntur explicabo sapiente fugit! Ex.</p>
+              <button class="link btn btn-primary float-right button-view main-button ">
+                    <b class="text-uppercase">read more</b></button>
+        </section>
+    </div>
+    <div class="second-title">
+        <section class="article-block float-right">
+            <h3 class = "article-title text-center">Tasteful French Cuisine</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Accusamus soluta molestiae magnam ipsam, provident dolore nihil
+                 alias! Obcaecati repellat illo quas ipsa, magni praesentium 
+                 cupiditate incidunt reprehenderit cumque eum laboriosam!</p>
+                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Molestias rem, et consequatur, repellat saepe hic aspernatur
+                       perspiciatis harum adipisci exercitationem ipsa? Veritatis nam 
+                       rem, ad numquam facere voluptatem reiciendis cupiditate.</p>
+            <button class="link btn btn-primary float-right button-view main-button "> 
+                <b class="text-uppercase">view menu</b></button>
+        </section>
+    </div>
+    <div class="form-section">
+        <div class="form-view">
+            <div class="registration-form-item d-flex flex-column bd-highlight ">
+                <h3>Make a Reservation</h3>
+                <input class="item-row" type="text">
+                <input class="item-row" type="text">
+                <input class="item-row" type="text">
+                <input class="item-row" type="text">
+                <button class="item-row link btn btn-primary button-view auxiliary-button" type="submit">
+                    <b class="text-uppercase">Find a table</b> </button>
+            </div>
+                    </div>
+
+        <div class="coments-form form-view "></div>
+    </div>
+
+
+
 
 
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
@@ -62,6 +104,8 @@
         crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
         crossorigin="anonymous"></script>
+
+        <script src="script.js"></script>
 </body>
 
 </html>

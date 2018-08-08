@@ -165,22 +165,29 @@
     margin-right: 30px;
     margin-left: 30px;
     background: #ffffff; 
-    justify-content: center;
     align-items: center;
 }
 
 /* first form */
-.registration-form-item{
-    margin-top: 75px;
+.form-item{
+    display: flex;
+    flex-direction: column;
+    width: 310px;
     height: 415px;
     align-items: center;
     justify-content: space-around;
 }
+
 .item-row{
     height: 50px;
     width: 310px;
-    border-color: #e5e4e4;
     border-radius: 5px;
+}
+.item-view{
+    color: #555555;
+    background-color: #f7f7f7;
+    border-color: #e5e4e4;
+   
 }
 
 /* second form */
@@ -189,4 +196,84 @@
 .coments-form {
     flex-direction: column;
     justify-content: center;
+}
+.coment{
+    width: 290px;
+    margin-left: 20px;
+}
+.form-first-title{
+    margin-top: 75px;
+}
+
+/* photo on the coment board */
+.photo-border{
+    width: 75px;
+    height: 75px;
+    border-radius: 50px;
+}
+.photo{
+    background-size: cover;
+    background-position-x : 50%;
+    background-position-y : 50%;
+}
+.photo-1{
+    background-image: url(Photo/people1.jpg);
+}
+.photo-2{
+    background-image: url(Photo/people2.jpg);
+}
+.photo-3{
+    background-image: url(Photo/people3.jpg);
+}
+/* text on the coment form */
+.coment-title{
+    color: #ff6633;
+}
+.coment-text{
+    white-space: nowrap;
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+}
+/* information on coment form */
+.date-write{
+    display: flex;
+    flex-direction: row;
+    
+}
+.date{
+    width: 150px;
+}
+
+.time{
+   width: 100px;
+}
+/* forth title settings */
+.forth-title{
+    height: 420px;
+    background-color: white;
+}
+.forth-title-position{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.forth-title--content-box {
+    height: 180px;
+    width: 350px;
+    margin-right: 70px;
+    margin-left: 70px;
+}
+.content-box--position{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+.button-share{
+    background-image:url(Photo/icons8-facebook-24.png) #3e59a5;
+}
+.button-tweet{
+    background-image: url(Photo/icons8-твиттер-50.png) #1b95e0;
 }

@@ -48,12 +48,12 @@
                    
             </div>
         
-            <a href="" class="link header-scroll-text">Scroll down for details</a>
-            <a href=""><img id="header-img" src="Photo/arrow.png"></a> 
+            <a href="#about-restoran" class="link header-scroll-text">Scroll down for details</a>
+            <a href="#about-restoran"><img id="header-img" src="Photo/arrow.png"></a> 
             </div>
     </div>
 
-    <div class="first-title">
+    <div class="first-title"><a name="about-restoran"></a>
         <section class="article-block float-left">
             <h3 class = "article-title text-center">About Voila Restaurant</h3>
             <p calss="article-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
@@ -79,19 +79,86 @@
         </section>
     </div>
     <div class="form-section">
-        <div class="form-view">
-            <div class="registration-form-item d-flex flex-column bd-highlight ">
-                <h3>Make a Reservation</h3>
-                <input class="item-row" type="text">
-                <input class="item-row" type="text">
-                <input class="item-row" type="text">
-                <input class="item-row" type="text">
+            <div class="form-view d-flex flex-column">
+                <h3 class="form-first-title">Make a Reservation</h3>
+                <form class="form-item" action="registration.js">
+                <input class="item-row item-view" type="text" value="name">
+                <input class="item-row item-view" type="month" value="date">
+                <input class="item-row item-view" type="time" value="time">
+                <input class="item-row item-view" type="text" value="comment">
                 <button class="item-row link btn btn-primary button-view auxiliary-button" type="submit">
-                    <b class="text-uppercase">Find a table</b> </button>
+                <b class="text-uppercase">Find a table</b>
+                </button>
+            </form>
             </div>
+        
+                <div class="form-view d-flex flex-column">
+                    <h3 class="form-first-title">Upcoming Events</h3>
+                    <div class="d-flex flex-row">
+                        <div class="photo photo-border photo-1"></div>
+        
+                        <div class="coment">
+                            <h5 class="coment-title">Live Music Fridays</h5>
+                            <div class="date-write">
+                                <p class="date">March 12th</p> <p class="time">15:47</p>
+                            </div>
+                            <p class="coment-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas itaque labore consequuntur eos in
+                                fugit saepe impedit vero, omnis earum vitae doloribus odit odio at vel assumenda? Porro, recusandae
+                                illum.</p>
+                            <p>
+                                <a href="" class="coment-title">Read more...</a>
+                            </p>
+                        </div>
                     </div>
-
-        <div class="coments-form form-view "></div>
+        
+        
+                    <div class="d-flex flex-row">
+                        <div class="photo photo-border photo-2"></div>
+                        <div class="coment">
+                            <h5 class="coment-title">Louis XII Food Festival</h5>
+                            <div class="date-write">
+                                <p class="date">March 12th</p> <p class="time">15:47</p>
+                            </div>
+                            <p class="coment-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas itaque labore consequuntur eos in
+                                fugit saepe impedit vero, omnis earum vitae doloribus odit odio at vel assumenda? Porro, recusandae
+                                illum.</p>
+                            <p>
+                                <a href="" class="coment-title">Read more...</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-row">
+                        <div class="photo photo-border photo-3"></div>
+                        <div class="coment">
+                            <h5 class="coment-title">Magic show with Karim Diaw</h5>
+                            <div class="date-write">
+                                <p class="date">March 12th</p> <p class="time">15:47</p>
+                            </div>
+                            <p class="coment-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas itaque labore consequuntur eos in
+                                fugit saepe impedit vero, omnis earum vitae doloribus odit odio at vel assumenda? Porro, recusandae
+                                illum.</p>
+                            <p>
+                                <a href="" class="coment-title">Read more...</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+    </div>
+    <div class="forth-title forth-title-position">
+        <div class="forth-title--content-box content-box--position">
+            <h3>Book a Table</h3>
+            <p class="text-center">Like our restaurant concept? Book a table and taste our dishes on first hand.</p>
+            <button class="link btn btn-primary float-right button-view main-button ">
+                    <b class="text-uppercase">book a table</b></button>
+        </div>
+        <img src="Photo/lineOr.png" alt="line">
+        <div class="forth-title--content-box content-box--position">
+            <h3>Tell to Your Friends</h3>
+            <p class="text-center">Some of your friends may like to visit if you recommend us. They’ll trust your taste!</p>
+            <div class="button-group">
+            <button class="button-share" type="submit">share</button>
+            <button class="button-tweet" type="submit">tweet</button></div>
+        </div>
     </div>
 
 

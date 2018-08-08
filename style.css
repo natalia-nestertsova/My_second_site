@@ -32,7 +32,6 @@
 }
 .link-text-under{ 
     width: 115px;
-
     color: white;
     font-size: 12px;
     padding-left: 0px;
@@ -50,6 +49,13 @@
     color: #ff6633;
     text-decoration: none;
 }
+.link:active{
+    color:  #994022;
+}
+.link:focus-within{
+    color:  #ff6633;
+}
+
 /* Finish link setting */
 
 
@@ -108,14 +114,14 @@
     background-color: #ff6633;
 }
 .main-button:hover{
-    background-color: #ffffff;
+    background-color: #994022;
 }
 .auxiliary-button{
     background-color: rgba(0, 0, 0, 0.753);
     align-items: center;
 }
 .auxiliary-button:hover{
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.473);
 }
 /* finish for button on header */
 
@@ -124,6 +130,14 @@
     margin-top: 110px;
     color: #ffffff;
     font-size: 14px;
+}
+.arrow-down{
+    height: 30px;
+    width: 30px;
+    background-image: url(Photo/arrow.png);
+}
+.arrow-down:hover{
+    background-image: url(Photo/arrowActive.png);
 }
 
 /* Start body */
@@ -272,8 +286,30 @@
     
 }
 .button-share{
-    background-image:url(Photo/icons8-facebook-24.png) #3e59a5;
+    background:#3e59a5;
+    color: white;
+    border: #3e59a5;
 }
 .button-tweet{
-    background-image: url(Photo/icons8-твиттер-50.png) #1b95e0;
+    background: #1b95e0;
+    color: white;
+    border: #1b95e0;
+}
+/* settings footer */
+.footer{
+    height: 305px;
+    display: flex;
+    justify-content: center;
+    background: #222222;
+}
+.footer-position{
+    width: 25%;
+    margin-top: 60px;
+}
+
+.footer-nav--li{
+    list-style: none;
+}
+.footer--text{
+    color: white;
 }
